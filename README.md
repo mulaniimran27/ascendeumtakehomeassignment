@@ -37,5 +37,14 @@ link to the second route.
 The second route should render a table with all revenue for a single campaign
 broken down by date and hour.
 
+## Install Process
+1. import in xampp htdocs folder
+2. Run migrate command to import db (stats new db created)
+3. Run seeder command to import db
+4. run serve command
+5. to import stats data from csv file run command
+   - php artisan app:import-stats filename
+6. run above command for both files it will work
+
 The third route should render a table with all revenue for a single campaign
 broken down by utm_term.
